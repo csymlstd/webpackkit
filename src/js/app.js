@@ -5,8 +5,10 @@ import Vuex from 'vuex'
 Vue.use(VueRouter)
 Vue.use(Vuex)
 
-import { router } from './routes'
+import routes from './routes'
 import { store } from './store'
+
+let router = new VueRouter(routes)
 
 let app = new Vue({
     el: '#app',
