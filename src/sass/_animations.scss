@@ -1,0 +1,26 @@
+
+// Truck Keyframes
+@keyframes carTrail {
+  0% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+}
+
+@keyframes carBump {
+  0% {
+    transform: translateY(1px);
+  }
+  25% {
+    transform: translateY(2px);
+  }
+  50% {
+    transform: translateY(-1px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
